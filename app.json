@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/CheckTheInvoice/CheckTheInvoice"
+    "pages/CheckTheInvoice/CheckTheInvoice",
+    "pages/makeinvoice/makeinvoice"
   ],
   "window": {
     "backgroundTextStyle": "light",
