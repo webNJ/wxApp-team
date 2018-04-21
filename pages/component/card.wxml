@@ -1,0 +1,24 @@
+<view>
+  <template name='cardPact'>
+    <view class='tit pdlr10 flex'>
+      <text class='pact-id'>
+        <text class='iconfont icon-mine pdr10'></text>
+        <text>合同编号：{{id}}</text>
+      </text>
+      <text class='iconfont icon-back'></text>
+    </view>
+    <view class='flex pd15'>
+      <view class='flex7'>
+        <block wx:for='{{info}}' wx:key='{{index}}'>
+          <text class='pdtb5 w'><text class='col-c pdr20'>教学中心</text>{{item.sch}}</text>
+          <text class='pdtb5 w'><text class='col-c pdr20'>实付金额</text>{{item.pay}}</text>
+          <text class='pdtb5 w'><text class='col-c pdr20'>签订日期</text>{{item.date}}</text>
+        </block>
+      </view>
+      <view class='btn flex3' bindtap='detail'>
+        申请发票
+        <slot name='btn'></slot>
+      </view>
+    </view>
+  </template>
+</view>

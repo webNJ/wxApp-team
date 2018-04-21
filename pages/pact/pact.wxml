@@ -1,0 +1,12 @@
+<import src='../component/card.wxml'/>
+<view class='pact w h pdt10'>
+  <view class='pact-con mrgb10'>
+    <template is='cardPact' data='{{...pactData}}'><view slot='btn'></view></template>
+  </view>
+  <view class='pact-con mrgb10'>
+    <template is='cardPact' data='{{...pactData}}'></template>
+  </view><view class='pact-con mrgb10'>
+    <template is='cardPact' data='{{...pactData}}'></template>
+  </view>
+  <button></button>
+</view>

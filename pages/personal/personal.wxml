@@ -1,0 +1,28 @@
+<!--pages/personal/personal.wxml-->
+<view class='cooperate'>
+    <text class='title'>合同明细</text>
+    <view class="white">
+      <span>S-SK-1</span>
+      <span>￥15880.00</span>
+   </view>
+    <view class="white">
+      <span>S-SK-1</span>
+      <span>￥15880.00</span>
+    </view>
+     <view class="white">
+      <span>优惠</span>
+      <span>-￥15880.00</span>
+    </view>
+    <view class="white">
+      <span>总计￥31760.00</span>
+      <span>实付:￥27572.00</span>
+    </view>
+    <view>合同信息</view>
+    <view class="message">
+        <picker>合同编号 2125609</picker>
+        <picker>学员姓名 张静函</picker>
+        <picker>教学中心 北京西坝河</picker>
+        <picker>签订时间 2017-01-01 18：00：08</picker>
+    </view>
+    
+</view>

@@ -1,0 +1,68 @@
+<view class='container'>
+  <view class='invoice'>
+    <view class='text1'>
+      <text>发票金额</text>
+      <text class='span'>优惠券支付部分不可开发票</text>
+    </view>
+    <view class='text2'>
+      <text>￥27572.00</text>
+      <text class='price'>以实付金额为准</text>
+    </view>
+  </view>
+
+  <view class='invoice2'>
+    <view>
+      <view>抬头类型 <text class='personal'>个人</text></view>
+      <view class='span'>其他发票需求请联系校区前台</view>
+    </view>
+    <view class='input'>
+      发票抬头
+      <input type='text' value='张静函'></input>
+    </view>
+  </view>
+
+  <view class='invoice3'>
+    <view>
+      <text>开票方式</text>
+      <view class='span'>申请后，发票将自动发送到您的邮箱</view>
+    </view>
+    <view class='input'>
+      邮箱
+      <input type='text' placeholder='可不填，填写后可发送至您的邮箱'></input>
+    </view>
+  </view>
+  <button bindtap='submit'>提交</button>
+
+  <view class="{{flag?'container2 show':'container2 hide'}}">
+  <view class="wrapper">
+  </view>
+  <view class='alert'>
+    <view class='data'>
+        <view>
+          <text>发票金额：</text>   
+          <text>￥27572.00</text>
+        </view>
+        <view>
+          <text>抬头类型：</text>
+          <text>个人</text>
+        </view>
+        <view>
+          <text>发票抬头：</text>
+          <text>张静函</text>
+        </view>
+        <view>
+          <text>项目：</text>
+          <text>培训费</text>
+        </view>
+        <view>
+          <text>邮箱：</text>
+          <text>15810671719@163.com</text>
+        </view>
+    </view>
+    <view class='btn'>
+      <button class='cancel' bindtap='cancel'>取消</button>
+      <button class='confirm' bindtap='confirm'>确认开票</button>
+    </view>
+  </view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/CheckTheInvoice/CheckTheInvoice",
+    "pages/makeinvoice/makeinvoice",
+    "pages/invoice/invoice",
+    "pages/server/server",
+    "pages/login/login",
+    "pages/pact/pact",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

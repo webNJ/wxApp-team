@@ -1,0 +1,29 @@
+<!--pages/CheckTheInvoice/CheckTheInvoice.wxml-->
+<view class='CheckTheInvoice'>
+  <view class='CheckTheInvoicebg'>
+      <view class='content'>
+          <view class="{{show?'success show':'success hide'}}">
+              <view class='success-top'>
+                <icon type="success" size="48"/>
+              <b>开票成功</b>
+              <text style="color:#ccc">电子发票已发送到您的微信</text>
+              </view>
+              <view class='success-bto'>
+                  <text>前往【我】-【卡包】-【我的票券】中查看</text>
+              </view>
+         </view> 
+         <view class="{{show?'success hide':'success show'}}">
+          <view class='success-top'>
+                <icon type="cancel" size="48"/>
+              <b>开票失败</b>
+              <text style="color:red;width:200px;text-align:center">当月开票数量达到上限,请联系小区前台</text>
+              </view>
+               
+
+         </view>
+         <button class='btn'>返回我的合同</button>
+      </view>
+  </view>
+</view> 
+
+

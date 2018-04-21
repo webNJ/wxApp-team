@@ -1,0 +1,53 @@
+<!--pages/server/server.wxml-->
+<view class='server'>
+    <swiper class='swiper' indicator-dots='true' autoplay='true' interval='2000' duration='1000'>
+          <block wx:for="{{movies}}" wx:for-index="index">
+                <swiper-item>
+                    <image src='{{item.url}}' class='slide-image' mode='aspectFill'/>
+                </swiper-item>
+          </block>
+    </swiper>
+     <view class='middle'>
+       <span class='text'>常用服务</span>
+        <view class='nav'>
+                <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+                    <dl>
+                    <dt><image src='../../images/c_07.jpg'></image></dt>
+                    <dd>励步商店</dd>
+                  </dl> 
+        </view>  
+      </view>
+      <div class="bottom">
+            <text>首页</text>
+            <text bindtap='tofuwu'>服务</text>
+            <text bindtap='mypage'>我的</text>
+      </div>
+</view>
+

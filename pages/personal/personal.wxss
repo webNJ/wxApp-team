@@ -1,0 +1,30 @@
+/* pages/personal/personal.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+.cooperate{
+  width: 100%;
+  height: 100%;
+}
+.cooperate text{
+  display: block;
+}
+.message{
+  padding-left: 15px;
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+  background: #fff;
+  line-height: 30px;
+}
+.white{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 15px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+
+}
