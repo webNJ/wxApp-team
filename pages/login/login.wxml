@@ -1,0 +1,13 @@
+<!--pages/login/login.wxml-->
+<view class='loginbox'>
+    <view class='wrap'>
+        <div>
+        <image src='../../images/a_03.jpg'></image>
+        <icon></icon><input type='text' placeholder='请输入手机号'></input>
+        <input type='text' placeholder='请输入验证码'><span>获取验证码</span></input>
+        <button bindtap='change'>立即登录</button>
+        <picker>点击登录即代表已同意<text>《励步服务中心协议》</text></picker>
+        </div>
+    </view>
+    
+</view>
