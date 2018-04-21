@@ -1,0 +1,51 @@
+/**index.wxss**/
+.container{
+  width:100%;
+  height: 100%;
+  padding:0;
+}
+.header{
+  width:100%;
+  height: 350rpx;
+  background: #349BFF;
+  margin-bottom: 80rpx;
+}
+.header .swiper{
+  width:90%;
+  height: 400rpx;
+  margin:60rpx auto;
+}
+.slide-image image{
+  width:100%;
+  height: 400rpx;
+}
+.main{
+  border:.5rpx solid #ccc;
+  border-radius: 40rpx;
+  width:95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 auto;
+  padding:10rpx;
+}
+.main dl{
+  width:25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20rpx;
+
+}
+.h1{
+  margin: 0 auto 20rpx;
+}
+.main dl dt image{
+  width:120rpx;
+  height:120rpx;
+}
+.main dl dd{
+  font-size: 32rpx;
+}

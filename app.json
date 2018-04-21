@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/invoice/invoice",
+    "pages/login/login",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#349BFF",
+    "navigationBarTitleText": "励志英语",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"./pages/images/8.png",
+        "selectedIconPath":"./pages/images/8.png"
+         
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "服务",
+        "iconPath": "./pages/images/9.png",
+        "selectedIconPath": "./pages/images/9.png"
+      },
+      {
+        "pagePath": "pages/invoice/invoice",
+        "text": "我的",
+        "iconPath": "./pages/images/9.png",
+        "selectedIconPath": "./pages/images/9.png"
+      }
+    ],
+    "selectedColor": "#349BFF",
+    "backgroundColor":"#fff"
+  }
+}

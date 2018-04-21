@@ -1,0 +1,18 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class='login'>
+    <image src='../images/1.png'></image>
+    <form>
+      <view class='login-input'>
+        <image src='../images/2.png'></image>
+        <input name='user' type='text' placeholder='请输入手机号'></input>
+      </view>
+      <view class='login-input'>
+        <image src='../images/3.png'></image>
+        <input name='psd' type='text' placeholder='请输入验证码'></input>
+      </view> 
+      <button bindtap='tohome'>立即登录</button>
+    </form>
+    <text class='agree'>点击登录即代表已同意 <text class='cont'>《励步服务中心协议》</text></text>
+  </view>
+</view>

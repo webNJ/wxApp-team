@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+ <swiper class='swiper' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+  </view>
+  <text class='h1'>
+    常用服务
+  </text>
+  <view class='main'>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+    <dl>
+      <dt><image src='../images/5.png'></image></dt>
+      <dd>励步商店</dd>
+    </dl>
+  </view>
+</view>
